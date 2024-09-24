@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Currículos</title>
+    <link rel="stylesheet" href="curriculo.css">
+  
+</head>
+<body>
+    <div class="containerPrinc">
+        <div class="containerLogin">
+          <div class="containerLogo">
+            <img src="img/connectpro.jpeg" alt="Logo" class="logoLogin" />
+          </div>
+  
+          <div class="containerDatas">
+            <input type="text" placeholder="Insira seu nome:" />
+            <div class="containerEmpty"></div>
+            <input type="text" placeholder="Insira seu e-mail:" />
+            <div class="containerEmpty"></div>
+            <!-- Div vazia para separar os inputs -->
+            
+            <label for="">Envie seu Currículo:</label>
+            
+          </div>
+          <input class="btn-arquivo" type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+          <div class="containerButtons">
+                  <button class="btnSingIn" class="btn" onclick="goToPageLogin()">CADASTRE-SE</button>
+              
+          </div>
+        </div>
+      </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------
+segunda parte
